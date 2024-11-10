@@ -22,7 +22,7 @@ logging.basicConfig(
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = getenv("OWNER_ID", None)
+OWNER_ID = getenv("OWNER_ID","6062173301" None)
 SEXY  = [int(g), int(gg), int(OWNER_ID)]
 #TelegramClient..
 main = TelegramClient(
