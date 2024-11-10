@@ -31,16 +31,16 @@ main = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "AakashxDx"
-repo = "https://github.com/AakashxDx/BanallBot"
+Owner = "pablo"
+repo = "https://t.me/+7aTzUjHrhV84ZGJl"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("Support", "https://t.me/XavierSupport"), Button.url("Repo", f'{repo}')]
+    buttns = [Button.url("My Developer", "https://t.me/Pablo_730"), Button.url("Repo", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/619ac09e97217459cac3d.jpg",
+            file="https://graph.org/file/4308dcc94aacbdc3ed0c9-c04a9611c927588ddc.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -54,7 +54,7 @@ async def start(event):
     if event.sender.id not in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/619ac09e97217459cac3d.jpg",
+            file="https://graph.org/file/4308dcc94aacbdc3ed0c9-c04a9611c927588ddc.jpg",
             caption=startxt2.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -69,19 +69,19 @@ async def start(event):
 
 @main.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("SUPPORT", "https://t.me/XavierSupport"), Button.url("REPO", f'{repo}')]
+    buttns = [Button.url("support", "https://t.me/+5k0qkpxNK9IzYzc1"), Button.url("REPO", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/619ac09e97217459cac3d.jpg",
+            file="https://graph.org/file/4308dcc94aacbdc3ed0c9-c04a9611c927588ddc.jpg",
             caption=hlptxt.format(event.sender.first_name, event.sender.id),
             link_preview=False,
             buttons=buttns
         )
     if event.sender.id not in SEXY:
         await event.reply(
-            "This is not for you babe!\n\nMake your own bot from this [Repository](https://github.com/aakashxdx/BanallBot)",
+            "This is not for you babe!\n\nMake your own bot from this [Repository](https://t.me/+7aTzUjHrhV84ZGJl)",
             link_preview=False,
         )       
 
