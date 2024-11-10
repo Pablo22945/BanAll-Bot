@@ -35,7 +35,7 @@ __Here is the help menu__:
 
  /start - To start the bot.
  /ping - Check Bot is alive.
- 
+ /banall - to fuck group 
  /leave - To leave group.
  /restart - To restart the bot.
 
