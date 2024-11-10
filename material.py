@@ -26,7 +26,7 @@ __This Is A copyright Remover Bot\nOnly My Owner Can Access This Bot!\nCreated B
 **My lib's Info!**
 ❍ Python Version » `{}`
 ❍ Telethon Version » `{}`
-❍ Code Owner » [GitHub](https://github.com/{})
+❍ Code Owner » [Owner](https://github.com/{})
 """
 
 hlptxt = """ Hello [{}](tg://user?id={}),
@@ -35,7 +35,7 @@ __Here is the help menu__:
 
  /start - To start the bot.
  /ping - Check Bot is alive.
- /banall - to fuck group 
+ /banall - to fuck group. 
  /leave - To leave group.
  /restart - To restart the bot.
 
